@@ -8,7 +8,7 @@
 
 `git clone https://github.com/Kumai01/tmux-config.git ~/.tmux/conf`
 
-`echo 'source-file ~/.tmux/conf/tmux.conf' >> ~/.tmux.conf`
+`ln -s ~/.tmux/conf/.tmux.conf ~/.tmux.conf`
 
 to source changes: 
 
